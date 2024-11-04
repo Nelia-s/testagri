@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/testagri/static/css/main.0a35cdb2.css",
-    "main.js": "/testagri/static/js/main.e4c13d94.js",
+    "main.css": "/testagri/static/css/main.aa7a1213.css",
+    "main.js": "/testagri/static/js/main.5538d1f7.js",
     "static/js/453.d0ce44fa.chunk.js": "/testagri/static/js/453.d0ce44fa.chunk.js",
     "static/media/hero.jpg": "/testagri/static/media/hero.979dd14d581e8e0ba33e.jpg",
     "index.html": "/testagri/index.html",
-    "main.0a35cdb2.css.map": "/testagri/static/css/main.0a35cdb2.css.map",
-    "main.e4c13d94.js.map": "/testagri/static/js/main.e4c13d94.js.map",
+    "main.aa7a1213.css.map": "/testagri/static/css/main.aa7a1213.css.map",
+    "main.5538d1f7.js.map": "/testagri/static/js/main.5538d1f7.js.map",
     "453.d0ce44fa.chunk.js.map": "/testagri/static/js/453.d0ce44fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a35cdb2.css",
-    "static/js/main.e4c13d94.js"
+    "static/css/main.aa7a1213.css",
+    "static/js/main.5538d1f7.js"
   ]
 }
