@@ -10,6 +10,7 @@
     "agricool": "file:",
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.3",
+    "bootstrap": "^5.3.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
@@ -24,6 +25,7 @@
     "react-router-dom": "^6.27.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
+    "react-use-cart": "^1.14.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

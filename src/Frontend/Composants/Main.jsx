@@ -10,7 +10,7 @@ const Main = () => {
         <p>Réduisez le gaspillage alimentaire et soutenez les agriculteurs locaux !</p>
 
         {/* Utilisation de Link pour rediriger vers la page des catégories */}
-        <Link to="/categories">
+        <Link to="/products">
           <button className="cta-button">Découvrez nos produits</button>
         </Link>
 

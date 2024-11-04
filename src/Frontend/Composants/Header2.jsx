@@ -2,11 +2,10 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
-import { Link as ScrollLink } from "react-scroll";
 import { useCart } from "react-use-cart"; // Importez useCart pour accéder au contexte du panier
 import "../CSS/Header.css";
 
-const Header = () => {
+const Header2 = () => {
   const [authMenuOpen, setAuthMenuOpen] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [userData, setUserData] = useState(null);
@@ -59,16 +58,6 @@ const Header = () => {
             <Link to="/products">Produits</Link>
           </li>
           <li>
-            <ScrollLink to="AboutUs" smooth={true} duration={500} offset={-50}>
-              À propos
-            </ScrollLink>
-          </li>
-          <li>
-            <ScrollLink to="Contact" smooth={true} duration={500} offset={-50}>
-              Contact
-            </ScrollLink>
-          </li>
-          <li>
             <Link to="/cart" className="cart-link">
               <FaShoppingCart className="cart-icon" />
               Panier
@@ -113,4 +102,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header2;

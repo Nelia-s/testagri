@@ -24,11 +24,13 @@ nav {
     padding: 1rem;
     background-color: var(--vertE);
     color: var(--blanc);
+    padding-top: 2rem;
 }
 
 
 .logo {
     margin: -0.5rem 1.5rem;
+    margin-top: -1.5rem;
 }
 
 .nav-bar ul {
@@ -121,3 +123,28 @@ nav {
     background-color: white; /* Fond blanc lorsqu'il est actif */
     color: var(--vertE); /* Texte reste vert */
 }
+
+/* src/CSS/Header.css */
+.cart-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  

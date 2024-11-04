@@ -19,6 +19,11 @@
     color: var(--vertE);
 }
 
+.Main .TitreDeProduits h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
 .Main .container {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Créer deux colonnes égales */

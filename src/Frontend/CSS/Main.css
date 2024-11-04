@@ -1,17 +1,18 @@
 body {
-    margin: 0;
     overflow-x: hidden; 
     overflow-y: auto;
 }
 
 .hero-section {
+    margin: -2rem;
+    overflow-y: hidden;
     position: relative;
     text-align: center;
     font-size: 1.8rem;
     padding: 8rem 3rem;
     height: 50vh;
     background:
-    linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 7rem), /* Dégradé blanc limité à 5rem */
+    linear-gradient(to top, #f9f9f9 0%, rgba(255, 255, 255, 0) 7rem), /* Dégradé blanc limité à 5rem */
     url('../../../public/Asset/hero.jpg');
     background-size: cover;
     background-position: center;

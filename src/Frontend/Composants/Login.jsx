@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../CSS/Register.css";
-import Header from "./Header"; // Assurez-vous que ce chemin est correct
+import Header from "./Header2"; // Assurez-vous que ce chemin est correct
 
 const FormulaireConnexion = () => {
   // États pour les champs de formulaire

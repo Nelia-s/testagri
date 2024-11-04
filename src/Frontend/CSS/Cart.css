@@ -1,0 +1,98 @@
+/* src/CSS/Header.css (ou un autre fichier CSS) */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --vert: #76C7B5;
+    --vertM: #3EB489;
+    --vertA: #D3E1D8;
+    --vertE: #50C878;
+    --blanc: #fff;
+    --bcasse: #ddd;
+}
+
+.panier-vide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.panier-vide .text {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.panier-vide .btn {
+    font-size: 4rem;
+    background-color: var(--vertE);
+    padding: 1rem 1rem;
+    color: white;
+    border-radius: 30px;
+}
+
+.panier-vide .btn:hover {
+    background-color: var(--vertM);
+}
+
+.panier-vide .btn:active {
+    background-color: var(--vertA);
+    border: none;
+    color: #45B169;
+}
+
+.border {
+    border: 1px solid #50C878; /* Bordure verte pour le formulaire */
+    border-radius: 5px; /* Coins arrondis */
+  }
+  
+  h4 {
+    color: #50C878; /* Titre du formulaire en vert */
+  }
+  
+  .btn-success {
+    background-color: #50C878; /* Couleur du bouton de paiement */
+    border-color: #50C878; /* Couleur de la bordure */
+  }
+  
+  .btn-success:hover {
+    background-color: #45B169; /* Teinte plus sombre au survol */
+    border-color: #45B169; /* Bordure sombre au survol */
+  }
+
+/* src/Frontend/CSS/Cart.css */
+.promo-code {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .promo-code input {
+    width: 70%;
+    margin-right: 10px;
+  }
+  
+  .btn-success {
+    background-color: #50C878; /* Couleur principale */
+    border: none;
+    font-size: 1.25rem; /* Plus grand texte pour le bouton */
+    padding: 10px 20px; /* Plus de rembourrage pour le bouton */
+  }
+  
+  .btn-success:hover {
+    background-color: #3fb75a; /* Couleur au survol */
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --vert: #76C7B5;
+    --vertM: #3EB489;
+    --vertA: #D3E1D8;
+    --vertE: #50C878;
+    --bgcolor: #f9f9f9;
+}
+
+.MainProduits {
+    margin-bottom: -10rem;
+    margin-top: 10rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+} 
+
+.MainProduits h1 {
+    padding-bottom: 2rem;
+    color: var(--vertE);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
