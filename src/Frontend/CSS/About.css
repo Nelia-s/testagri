@@ -1,0 +1,37 @@
+:root{
+    --vert: #76C7B5;
+    --vertM: #3EB489;
+    --vertA: #D3E1D8;
+    --vertE: #50C878;
+    --bgcolor: #f9f9f9;
+}
+
+.about-us-container {
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: #f9f9f9;
+    font-family: "Raleway", sans-serif;
+    margin: 4rem 10rem;
+  }
+  
+.about-us-container h2 {
+    color: var(--vertE)	; /* Couleur verte pour correspondre au thème agricole */
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 0.25rem;
+  }
+
+.about-us-container .texte {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+p:last-of-type {
+    text-align: center;
+}

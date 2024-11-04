@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 8rem 3rem;
+    height: 50vh;
+    background:
+    linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 7rem), /* Dégradé blanc limité à 5rem */
+    url('../../../public/Asset/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0.9); /* Ajustement de la couleur du texte */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.cta-button {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    filter: brightness(1);
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+}

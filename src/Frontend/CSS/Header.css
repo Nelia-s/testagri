@@ -1,0 +1,123 @@
+:root {
+    --vert: #76C7B5;
+    --vertM: #3EB489;
+    --vertA: #D3E1D8;
+    --vertE: #50C878;
+    --blanc: #fff;
+    --bcasse: #ddd;
+}
+
+body {
+    width: 100%;
+    margin-top: 6rem;
+}
+
+nav {
+    position: fixed; /* Rend le header fixe */
+    top: 0rem; /* Le positionne en haut de la page */
+    left: 0; /* L'aligne à gauche */
+    right: 0; /* L'étend sur toute la largeur */
+    z-index: 1000; /* Assure que le header reste au-dessus des autres éléments */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--vertE);
+    color: var(--blanc);
+}
+
+
+.logo {
+    margin: -0.5rem 1.5rem;
+}
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-bar ul li {
+    margin-right: 1.8rem;
+    cursor: pointer;
+}
+
+.nav-bar ul a {
+    color: var(--blanc);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.cart-link {
+    display: flex;
+    align-items: center;
+    color: var(--blanc);
+    text-decoration: none;
+}
+
+.cart-icon {
+    margin-right: 0.5rem;
+}
+
+.auth-container {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/* Changement de couleur du fond lorsque "Compte" est cliqué */
+.auth-container.clicked {
+    background-color: var(--vertE); /* Background en vert quand cliqué */
+}
+
+/* Icône du compte */
+.auth-icon {
+    margin-right: 0.5rem;
+}
+
+/* Dropdown pour l'authentification */
+.auth-dropdown {
+    position: absolute;
+    top: 240%;
+    right: -50%;
+    background-color: var(--blanc); /* Fond vert après clic */
+    color: var(--blanc); /* Boutons en blanc */
+    border: 1px solid var(--bcasse);
+    padding: 0.5rem;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+/* Élément individuel dans le dropdown */
+.auth-item {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white; /* Couleur blanche par défaut */
+    cursor: pointer;
+    background-color: var(--vertE);
+    border-radius: 7px;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Effet au survol */
+.auth-item:hover {
+    background-color: white; /* Fond blanc au survol */
+    color: var(--vertE); /* Texte devient vert */
+}
+
+.auth-item:last-of-type {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* Effet pour maintenir la couleur blanche lorsqu'il est actif */
+.auth-item:active,
+.auth-item:focus {
+    background-color: white; /* Fond blanc lorsqu'il est actif */
+    color: var(--vertE); /* Texte reste vert */
+}

@@ -1,0 +1,56 @@
+:root{
+  --vert: #76C7B5;
+  --vertM: #3EB489;
+  --vertA: #D3E1D8;
+  --vertE: #50C878;
+  --bgcolor: #f9f9f9;
+}
+
+.footer {
+  margin-top: 15rem;
+  background-color: var(--vertE); /* Couleur de fond du footer */
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-networks {
+  margin-top: 1rem;
+  text-align: left; /* Aligner le texte à gauche pour les réseaux sociaux */
+}
+
+.social-networks h4 {
+  margin-bottom: 0.5rem;  
+  font-size: 1.2rem;
+  text-decoration: underline; /* Ligne en dessous du titre "Nos réseaux" */
+}
+
+.social-networks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-networks ul li {
+  margin-bottom: 0.5rem;
+}
+
+.social-networks ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.social-networks ul a:hover {
+  color: #d3d3d3; /* Changement de couleur au survol */
+  text-decoration: underline;
+}

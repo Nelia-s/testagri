@@ -1,0 +1,131 @@
+/* Style du conteneur du formulaire */
+body{
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.FormRegister  {
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 36%;
+  margin-top: 10rem;
+  margin-bottom: 6rem;
+}
+
+.FormRegister .Registerh2 {
+  color: #50c878;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* Style des titres de champs */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style des champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+  border-color: #50c878;
+}
+
+/* Style du bouton vérifier le SIRET */
+button[type="button"] {
+  background-color: #50c878;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+button[type="button"]:hover {
+  background-color: #45b269;
+}
+
+/* Style du bouton d'inscription */
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #50c878;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #45b269;
+}
+
+button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Style du message de validation ou d'erreur */
+p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Style de la case à cocher */
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Lien des termes d'utilisation */
+a {
+  color: #50c878;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.siret-info {
+  margin: 20px 0;
+}
+
+.siret-info p {
+  margin: 5px 0;
+}
+
+.siret-info strong {
+  display: inline-block;
+  width: 150px; /* Ajuste cette valeur selon la longueur des textes */
+  text-align: right;
+  margin-right: 10px;
+}
+
+.siret-info .commune {
+  display: inline-block;
+  margin-left: 0; /* Cette marge doit correspondre à la largeur du strong */
+}
